@@ -51,6 +51,7 @@ class _LoginState extends State<Login> {
                 ),
                 TextFormField(
                   obscureText: passVisible,
+                  keyboardType: TextInputType.visiblePassword,
                   decoration: InputDecoration(
                       hintText: 'Insira sua senha',
                       labelText: "Senha",
